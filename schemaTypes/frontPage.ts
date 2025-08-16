@@ -23,5 +23,19 @@ export const frontPage = defineType({
         },
       ],
     }),
+
+    defineField({
+      name: 'youtubeUrl',
+      title: 'YouTube',
+      type: 'url',
+      description: 'Link to the YouTube channel or video',
+    }),
+
+    defineField({
+      name: 'tiktokUrl',
+      title: 'TikTok',
+      type: 'url',
+      description: 'Link to the TikTok profile or video',
+    }),
   ],
 })
