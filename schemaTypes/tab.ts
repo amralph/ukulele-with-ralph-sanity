@@ -66,7 +66,7 @@ export const tab = defineType({
     defineField({
       name: 'previewTabFile',
       type: 'file',
-      options: {accept: 'application/pdf'},
+      options: {accept: 'image/*'},
       fieldset: 'files',
     }),
     defineField({
