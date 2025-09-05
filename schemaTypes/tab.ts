@@ -43,6 +43,11 @@ export const tab = defineType({
       type: 'string',
       fieldset: 'meta',
     }),
+    defineField({
+      name: 'origin',
+      type: 'string',
+      fieldset: 'meta',
+    }),
 
     // External Links
     defineField({
